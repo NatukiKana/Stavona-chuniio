@@ -78,4 +78,3 @@ struct
 
 - `reportID` is 0x02, don't change this.
 - LED data has 3 channel, so 1 led data need 3 byte, like 'r g b r g b r g b'.
-- LED data will NOT transfer all the time, it only transfer when led data changed.For example, when air led data changed, a package that packageID is 0x02 will be transferd.
